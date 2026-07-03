@@ -1,0 +1,38 @@
+# Environment
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Models
+*.pkl
+models/
+
+# Data
+data/
+*.csv
+*.json
+
+# Logs
+logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+grafana_data/
+
+# Misc
+*.tmp

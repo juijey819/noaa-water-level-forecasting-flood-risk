@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+venv/
+env/
+.venv/
+pip-wheel-metadata/
+dist/
+build/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Node
+node_modules/
+dist/
+build/
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+.env
+
+# VSCode/IDE
+.vscode/
+.idea/
+
+# Data, logs, and runtime files
+data/
+logs/
+*.log
+
+# Docker
+docker-compose.override.yml
+
+# Model/artifacts
+models/
+*.h5
+*.pth
+*.pkl
+*.joblib
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Misc
+*.sqlite3

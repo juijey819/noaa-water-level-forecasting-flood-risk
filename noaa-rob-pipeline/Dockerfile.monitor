@@ -1,0 +1,8 @@
+FROM python:3.11-slim
+
+RUN pip install --no-cache-dir psutil psycopg2-binary
+
+WORKDIR /app
+COPY src/monitoring/system_monitor.py /app/system_monitor.py
+
+CMD ["python", "-u", "system_monitor.py"]
